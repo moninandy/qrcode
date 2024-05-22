@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+table{
+    border:1px solid #ccc;
+    border-collapse: collapse;
+    
+}
+table td{
+    border:2px solid #ccc;
+    padding:5px 10px;
+    
+}
+table td:first-child{
+    font-weight:600;
+}
+form{
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+select{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    height:30px;
+}
